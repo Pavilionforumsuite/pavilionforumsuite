@@ -1,0 +1,29 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Footer from '../components/Footer.astro';
+---
+<MainLayout title="The Pavilion Forum Suite | Quiet Luxury Staycation">
+  <main class="relative min-h-screen flex flex-col justify-center bg-zinc-50 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto text-center space-y-8">
+      <p class="text-xs tracking-[0.3em] text-gray-400 uppercase font-light">Sunsuria Forum • Setia Alam</p>
+      <h1 class="font-serif text-5xl sm:text-7xl font-light text-neutral-900 leading-tight">
+        The Pavilion <br/><span class="italic">Forum Suite</span>
+      </h1>
+      <p class="max-w-md mx-auto text-sm text-gray-500 font-light leading-relaxed">
+        Experience a minimalist luxury sanctuary tailored for discerning travelers. Seamlessly integrated premium living spaces.
+      </p>
+      <div class="pt-4">
+        <a 
+          href="https://wa.me/60193404980" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="inline-block bg-black text-white text-xs tracking-widest uppercase px-8 py-4 font-medium hover:bg-zinc-950 transition-colors"
+        >
+          Book Direct via WhatsApp
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</MainLayout>
