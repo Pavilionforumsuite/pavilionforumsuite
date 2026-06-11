@@ -1,0 +1,39 @@
+---
+// Footer.astro - Compliance & Independent Brand Footer Panel
+const currentYear = new Date().getFullYear();
+---
+<footer class="bg-white border-t border-gray-100 py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+      <div class="space-y-4">
+        <h3 class="text-xs font-bold uppercase tracking-widest text-black">The Pavilion Forum Suite</h3>
+        <p class="text-xs text-gray-500 font-light leading-relaxed max-w-sm">
+          A premium architectural sanctuary blending quiet luxury with pure minimalist design. Proudly independent, secure, and tailored for global travelers.
+        </p>
+      </div>
+      <div class="space-y-4">
+        <h3 class="text-xs font-bold uppercase tracking-widest text-black">Guest Services</h3>
+        <ul class="space-y-2 text-xs text-gray-600 font-light">
+          <li><a href="/#suites" class="hover:text-black transition">Suite Details</a></li>
+          <li><a href="/#experience" class="hover:text-black transition">Lifestyle Amenities</a></li>
+          <li><a href="https://wa.me/60193404980" target="_blank" rel="noopener noreferrer" class="hover:text-black transition">Direct WhatsApp Host Support</a></li>
+        </ul>
+      </div>
+      <div class="space-y-4">
+        <h3 class="text-xs font-bold uppercase tracking-widest text-black">Location Center</h3>
+        <p class="text-xs text-gray-600 font-light leading-relaxed">
+          Sunsuria Forum, No 1, Jalan Setia Dagang AL U13/AL, <br/>
+          Setia Alam, 40170 Shah Alam, Selangor, Malaysia
+        </p>
+      </div>
+    </div>
+    <div class="border-t border-gray-100 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <p class="text-[10px] tracking-wider text-gray-400 uppercase">
+        &copy; {currentYear} The Pavilion Forum Suite. All Rights Reserved.
+      </p>
+      <p class="text-[10px] tracking-wider text-gray-400 uppercase bg-neutral-50 px-3 py-1 border border-neutral-100">
+        Verified Secure Direct Booking Channel
+      </p>
+    </div>
+  </div>
+</footer>
